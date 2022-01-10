@@ -4,7 +4,7 @@
       "brand": "Ferrari",
       "model": "California",
       "color": "red",
-      "urlSideView": "https://i.ibb.co/8751bb3/ferrari-california.png",
+      "urlSideView": "https://i.imgur.com/7ILIRKR.png",
       "urlFrontView": "@assets/front-view/ferrari-california-red.png",
       "price": 725
     },
@@ -12,7 +12,7 @@
       "brand": "Ferrari",
       "model": "California",
       "color": "gray",
-      "urlSideView": "https://i.ibb.co/6W9pY7y/Ferrari-California-gray.png",
+      "urlSideView": "https://i.imgur.com/JV6HdEW.png",
       "urlFrontView": "@assets/front-view/ferrari-california-gray.png",
       "price": 725
     },
@@ -20,7 +20,7 @@
       "brand": "Ferrari",
       "model": "California",
       "color": "yellow",
-      "urlSideView": "https://i.ibb.co/mDByP8V/lamborghini-aventador.png",
+      "urlSideView": "https://i.imgur.com/jw7Mth9.png",
       "urlFrontView": "@assets/front-view/ferrari-california-gray.png",
       "price": 725
     },
@@ -28,7 +28,7 @@
       "brand": "Porsche",
       "model": "911 Turbo S",
       "color": "white",
-      "urlSideView": "https://i.ibb.co/mh2F4S2/porsche-911-turbo-s-white.png",
+      "urlSideView": "https://i.imgur.com/EA9jp1L.png",
       "urlFrontView": "@assets/front-view/porsche-911-turbo-s-white.png",
       "price": 725
     },
@@ -36,7 +36,7 @@
       "brand": "Porsche",
       "model": "911 Turbo S",
       "color": "blue",
-      "urlSideView": "https://i.ibb.co/9GrVf0d/porsche-911-turbo-s-blue.png",
+      "urlSideView": "https://i.imgur.com/jXmiBBe.png",
       "urlFrontView": "@assets/front-view/porsche-911-turbo-s-blue.png",
       "price": 725
     },
@@ -44,70 +44,70 @@
       "brand": "Porsche",
       "model": "911 GT3 RS",
       "color": "orange",
-      "urlSideView": "https://i.ibb.co/FK07xxg/porsche-911-gt3-rs.png",
+      "urlSideView": "https://i.imgur.com/ph0q7xm.png",
       "price": 825
     },
     {
       "brand": "Bentley",
       "model": "Continental GT",
       "color": "blue",
-      "urlSideView": "https://i.ibb.co/PY42rnP/bentley-continental-gt.png",
+      "urlSideView": "https://i.imgur.com/agZEdSu.png",
       "price": 825
     },
     {
       "brand": "BMW",
       "model": "M1 Competition",
       "color": "white",
-      "urlSideView": "https://i.ibb.co/vsDVtHZ/bmw-m1-competition.png",
+      "urlSideView": "https://i.imgur.com/MrwcdS4.png",
       "price": 825
     },
     {
       "brand": "Alfa Romeo",
       "model": "4C Spider",
       "color": "yellow",
-      "urlSideView": "https://i.ibb.co/b3pS7yK/alfa-romeo-4c-spider.png",
+      "urlSideView": "https://i.imgur.com/V9uhCgH.png",
       "price": 825
     },
     {
       "brand": "Mclaren",
       "model": "P1 GTR",
       "color": "blue",
-      "urlSideView": "https://i.ibb.co/3fwCbVR/mclaren-p1-gtr.png",
+      "urlSideView": "https://i.imgur.com/Pi3cCSz.png",
       "price": 925
     },
     {
       "brand": "Lamborghini",
       "model": "Aventador",
       "color": "orange",
-      "urlSideView": "https://i.ibb.co/mDByP8V/lamborghini-aventador.png",
+      "urlSideView": "https://i.imgur.com/04BOPvh.png",
       "price": 925
     },
     {
       "brand": "Bugatti",
       "model": "Veyron Spyder",
       "color": "blue",
-      "urlSideView": "https://i.ibb.co/F85r0JB/bugatti-veyron-spyder.png",
+      "urlSideView": "https://i.imgur.com/XQr09vK.png",
       "price": 925
     },
     {
       "brand": "Chevrolet",
       "model": "Corvett",
       "color": "white",
-      "urlSideView": "https://i.ibb.co/SvdyqLg/chevrolet-corvett.png",
+      "urlSideView": "https://i.imgur.com/sIv5551.png",
       "price": 925
     },
     {
       "brand": "Rolls-Royce",
       "model": "Wraith",
       "color": "red",
-      "urlSideView": "https://i.ibb.co/YDxrNhV/rolls-royce-wraith.png",
+      "urlSideView": "https://i.imgur.com/auGJ3Oj.png",
       "price": 725
     },
     {
       "brand": "Mercedes-benz",
       "model": "AMG GTS",
       "color": "gray",
-      "urlSideView": "https://i.ibb.co/BT0k3X3/mercedes-benz-amg-gts.png",
+      "urlSideView": "https://i.imgur.com/XvsTs4Y.png",
       "price": 725
     }
   ]

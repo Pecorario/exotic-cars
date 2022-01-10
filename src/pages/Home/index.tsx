@@ -2,8 +2,10 @@ import { useEffect } from 'react';
 import { RootStateOrAny, useDispatch, useSelector } from 'react-redux';
 import { fetchCarsData } from '@store/cars-actions';
 
-import { Container, Title, ImgContainer, ImgContent, Imagem } from './styles';
+import { Container, ImgContainer } from './styles';
 import { CarProps } from '@models/CarsProps';
+import { Header } from '@components/Header';
+import { Card } from '@components/Card';
 
 export function Home() {
   const dispatch = useDispatch();
@@ -14,14 +16,16 @@ export function Home() {
   }, [dispatch]);
   return (
     <Container>
-      <Title>Home page</Title>
+      <Header />
       <ImgContainer>
         {cars.map((car: CarProps) => {
           return (
-            <ImgContent>
-              <p>{car.brand}</p>
-              <Imagem src={car.urlSideView} alt={car.model} />
-            </ImgContent>
+            <Card
+              url={car.urlSideView}
+              brand={car.brand}
+              model={car.model}
+              price={car.price}
+            />
           );
         })}
       </ImgContainer>

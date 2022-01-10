@@ -5,22 +5,15 @@ export const Container = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-`;
-
-export const Title = styled.h1`
-  font-family: 'Segoe UI Semi Bold';
+  padding: 0 7.6%;
 `;
 
 export const ImgContainer = styled.div`
   display: flex;
-  background: pink;
   flex-wrap: wrap;
-`;
+  justify-content: space-between;
 
-export const ImgContent = styled.div`
-  width: 30%;
-`;
-
-export const Imagem = styled.img`
-  width: 70%;
+  @media (max-width: 479px) {
+    justify-content: center;
+  }
 `;
