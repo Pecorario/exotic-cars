@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { GlobalStyle } from './global/styles/global';
-import { Home } from './pages/Home';
+import { GlobalStyle } from '@styles/global';
+import { Home } from '@pages/index';
 
 function App() {
   return (

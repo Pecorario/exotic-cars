@@ -4,110 +4,110 @@
       "brand": "Ferrari",
       "model": "California",
       "color": "red",
-      "urlSideView": "../src/assets/side-view/ferrari-california.png",
-      "urlFrontView": "../src/assets/front-view/ferrari-california-red.png",
+      "urlSideView": "https://i.ibb.co/8751bb3/ferrari-california.png",
+      "urlFrontView": "@assets/front-view/ferrari-california-red.png",
       "price": 725
     },
     {
       "brand": "Ferrari",
       "model": "California",
       "color": "gray",
-      "urlSideView": "../src/assets/side-view/Ferrari-California-gray.png",
-      "urlFrontView": "../src/assets/front-view/ferrari-california-gray.png",
+      "urlSideView": "https://i.ibb.co/6W9pY7y/Ferrari-California-gray.png",
+      "urlFrontView": "@assets/front-view/ferrari-california-gray.png",
       "price": 725
     },
     {
       "brand": "Ferrari",
       "model": "California",
       "color": "yellow",
-      "urlSideView": "../src/assets/side-view/Ferrari-California-yellow.png",
-      "urlFrontView": "../src/assets/front-view/ferrari-california-gray.png",
+      "urlSideView": "https://i.ibb.co/mDByP8V/lamborghini-aventador.png",
+      "urlFrontView": "@assets/front-view/ferrari-california-gray.png",
       "price": 725
     },
     {
       "brand": "Porsche",
       "model": "911 Turbo S",
       "color": "white",
-      "urlSideView": "../src/assets/side-view/porsche-911-turbo-s-white.png",
-      "urlFrontView": "../src/assets/front-view/porsche-911-turbo-s-white.png",
+      "urlSideView": "https://i.ibb.co/mh2F4S2/porsche-911-turbo-s-white.png",
+      "urlFrontView": "@assets/front-view/porsche-911-turbo-s-white.png",
       "price": 725
     },
     {
       "brand": "Porsche",
       "model": "911 Turbo S",
       "color": "blue",
-      "urlSideView": "../src/assets/side-view/porsche-911-turbo-s-blue.png",
-      "urlFrontView": "../src/assets/front-view/porsche-911-turbo-s-blue.png",
+      "urlSideView": "https://i.ibb.co/9GrVf0d/porsche-911-turbo-s-blue.png",
+      "urlFrontView": "@assets/front-view/porsche-911-turbo-s-blue.png",
       "price": 725
     },
     {
       "brand": "Porsche",
       "model": "911 GT3 RS",
       "color": "orange",
-      "urlSideView": "../src/assets/side-view/porsche-911-gt3-rs.png",
+      "urlSideView": "https://i.ibb.co/FK07xxg/porsche-911-gt3-rs.png",
       "price": 825
     },
     {
       "brand": "Bentley",
       "model": "Continental GT",
       "color": "blue",
-      "urlSideView": "../src/assets/side-view/bentley-continental-gt.png",
+      "urlSideView": "https://i.ibb.co/PY42rnP/bentley-continental-gt.png",
       "price": 825
     },
     {
       "brand": "BMW",
       "model": "M1 Competition",
       "color": "white",
-      "urlSideView": "../src/assets/side-view/bmw-m1-competition.png",
+      "urlSideView": "https://i.ibb.co/vsDVtHZ/bmw-m1-competition.png",
       "price": 825
     },
     {
       "brand": "Alfa Romeo",
       "model": "4C Spider",
       "color": "yellow",
-      "urlSideView": "../src/assets/side-view/alfa-romeo-4c-spider.png",
+      "urlSideView": "https://i.ibb.co/b3pS7yK/alfa-romeo-4c-spider.png",
       "price": 825
     },
     {
       "brand": "Mclaren",
       "model": "P1 GTR",
       "color": "blue",
-      "urlSideView": "../src/assets/side-view/mclaren-p1-gtr.png",
+      "urlSideView": "https://i.ibb.co/3fwCbVR/mclaren-p1-gtr.png",
       "price": 925
     },
     {
       "brand": "Lamborghini",
       "model": "Aventador",
       "color": "orange",
-      "urlSideView": "../src/assets/side-view/lamborghini-aventador-orange.png",
+      "urlSideView": "https://i.ibb.co/mDByP8V/lamborghini-aventador.png",
       "price": 925
     },
     {
       "brand": "Bugatti",
       "model": "Veyron Spyder",
       "color": "blue",
-      "urlSideView": "../src/assets/side-view/bugatti-veyron-spyder.png",
+      "urlSideView": "https://i.ibb.co/F85r0JB/bugatti-veyron-spyder.png",
       "price": 925
     },
     {
       "brand": "Chevrolet",
       "model": "Corvett",
       "color": "white",
-      "urlSideView": "../src/assets/side-view/chevrolet-corvett.png",
+      "urlSideView": "https://i.ibb.co/SvdyqLg/chevrolet-corvett.png",
       "price": 925
     },
     {
       "brand": "Rolls-Royce",
       "model": "Wraith",
       "color": "red",
-      "urlSideView": "../src/assets/side-view/rolls-royce-wraith.png",
+      "urlSideView": "https://i.ibb.co/YDxrNhV/rolls-royce-wraith.png",
       "price": 725
     },
     {
       "brand": "Mercedes-benz",
       "model": "AMG GTS",
       "color": "gray",
-      "urlSideView": "../src/assets/side-view/mecedes-benz-amg-gts.png",
+      "urlSideView": "https://i.ibb.co/BT0k3X3/mercedes-benz-amg-gts.png",
       "price": 725
     }
   ]
