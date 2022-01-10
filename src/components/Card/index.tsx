@@ -1,8 +1,17 @@
-import { Container, Brand, Model, Img, Price, ImgAndPrice } from './styles';
+import {
+  Container,
+  KebabHorizontal,
+  Brand,
+  Model,
+  Img,
+  Price,
+  ImgAndPrice
+} from './styles';
 
 export function Card({ url, brand, model, price }: any) {
   return (
     <Container>
+      <KebabHorizontal />
       <div>
         <Brand>{brand}</Brand>
         <Model>{model.toUpperCase()}</Model>

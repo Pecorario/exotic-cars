@@ -1,9 +1,11 @@
 import styled from 'styled-components';
+import { GoKebabHorizontal } from 'react-icons/go';
 
 export const Container = styled.div`
-  background: pink;
+  background: ${props => props.theme.colors.background_card};
   border-radius: 20px;
   padding: 1.25rem 1rem;
+  position: relative;
 
   display: flex;
   flex-direction: column;
@@ -33,15 +35,24 @@ export const Container = styled.div`
   }
 `;
 
+export const KebabHorizontal = styled(GoKebabHorizontal)`
+  position: absolute;
+  right: 1rem;
+  color: ${props => props.theme.colors.options};
+  font-size: 1.5rem;
+`;
+
 export const Brand = styled.h2`
   font-family: 'Segoe UI Bold';
   font-size: 1.06rem;
+  color: ${props => props.theme.colors.text_primary};
 `;
 
 export const Model = styled.p`
   font-family: 'Segoe UI Light';
   font-size: 1.06rem;
   margin-bottom: 1rem;
+  color: ${props => props.theme.colors.text_primary};
 `;
 
 export const ImgAndPrice = styled.div`
@@ -60,6 +71,7 @@ export const Price = styled.p`
   position: relative;
   align-self: flex-end;
   margin-right: 2.7rem;
+  color: ${props => props.theme.colors.text_primary};
 
   &:before {
     content: '$';
@@ -68,6 +80,7 @@ export const Price = styled.p`
     position: absolute;
     top: 0.2rem;
     left: -0.5rem;
+    color: ${props => props.theme.colors.text_primary};
   }
 
   &:after {
@@ -76,5 +89,6 @@ export const Price = styled.p`
     font-size: 0.875rem;
     position: absolute;
     bottom: -0.08rem;
+    color: ${props => props.theme.colors.text_primary};
   }
 `;
