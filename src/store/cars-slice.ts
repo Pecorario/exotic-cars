@@ -11,7 +11,9 @@ const carSlice = createSlice({
   reducers: {
     addCars(state, action) {
       state.cars = action.payload;
-      console.log('Carros: ', state.cars);
+      state.cars.sort(function (a, b) {
+        return a.brand > b.brand ? 1 : b.brand > a.brand ? -1 : 0;
+      });
     }
   }
 });

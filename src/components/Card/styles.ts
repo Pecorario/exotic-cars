@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { GoKebabHorizontal } from 'react-icons/go';
 
-export const Container = styled.div`
+export const Container = styled.button`
   background: ${props => props.theme.colors.background_card};
   border-radius: 20px;
   padding: 1.25rem 1rem;
@@ -33,6 +33,10 @@ export const Container = styled.div`
     width: 17.9375rem;
     height: 13.9375rem;
   }
+
+  &:hover {
+    filter: brightness(0.95);
+  }
 `;
 
 export const KebabHorizontal = styled(GoKebabHorizontal)`
@@ -46,6 +50,7 @@ export const Brand = styled.h2`
   font-family: 'Segoe UI Bold';
   font-size: 1.06rem;
   color: ${props => props.theme.colors.text_primary};
+  text-align: left;
 `;
 
 export const Model = styled.p`
@@ -53,6 +58,7 @@ export const Model = styled.p`
   font-size: 1.06rem;
   margin-bottom: 1rem;
   color: ${props => props.theme.colors.text_primary};
+  text-align: left;
 `;
 
 export const ImgAndPrice = styled.div`
@@ -61,7 +67,7 @@ export const ImgAndPrice = styled.div`
 `;
 
 export const Img = styled.img`
-  width: 90%;
+  width: 100%;
   align-self: center;
 `;
 

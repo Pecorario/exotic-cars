@@ -38,8 +38,6 @@ export const GlobalStyle = createGlobalStyle`
 
   body {
     -webkit-font-smoothing: antialiased;
-    width: 100vw;
-    height: 100vh;
   }
 
   button {

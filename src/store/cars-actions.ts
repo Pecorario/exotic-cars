@@ -13,11 +13,12 @@ export const fetchCarsData = () => {
 
       await data.map((car: CarProps) => {
         return carsLoaded.push({
+          id: car.id,
           brand: car.brand,
           model: car.model,
-          color: car.color,
-          price: car.price,
-          urlSideView: car.urlSideView
+          logo: car.logo,
+          types: car.types,
+          price: car.price
         });
       });
 

@@ -1,113 +1,207 @@
 {
   "cars": [
     {
+      "id": 1,
       "brand": "Ferrari",
       "model": "California",
-      "color": "red",
-      "urlSideView": "https://i.imgur.com/7ILIRKR.png",
-      "urlFrontView": "@assets/front-view/ferrari-california-red.png",
+      "logo": "https://i.imgur.com/96XwMYM.png",
+      "types": [
+        {
+          "number": 1,
+          "color": "red",
+          "urlSideView": "https://i.imgur.com/7ILIRKR.png",
+          "urlFrontView": "https://i.imgur.com/LE4DCiP.png"
+        },
+        {
+          "number": 2,
+          "color": "gray",
+          "urlSideView": "https://i.imgur.com/JV6HdEW.png",
+          "urlFrontView": "https://i.imgur.com/qQhpoHI.png"
+        },
+        {
+          "number": 3,
+          "color": "yellow",
+          "urlSideView": "https://i.imgur.com/jw7Mth9.png",
+          "urlFrontView": "https://i.imgur.com/3REYdik.png?1"
+        }
+      ],
       "price": 725
     },
     {
-      "brand": "Ferrari",
-      "model": "California",
-      "color": "gray",
-      "urlSideView": "https://i.imgur.com/JV6HdEW.png",
-      "urlFrontView": "@assets/front-view/ferrari-california-gray.png",
-      "price": 725
-    },
-    {
-      "brand": "Ferrari",
-      "model": "California",
-      "color": "yellow",
-      "urlSideView": "https://i.imgur.com/jw7Mth9.png",
-      "urlFrontView": "@assets/front-view/ferrari-california-gray.png",
-      "price": 725
-    },
-    {
+      "id": 2,
       "brand": "Porsche",
       "model": "911 Turbo S",
-      "color": "white",
-      "urlSideView": "https://i.imgur.com/EA9jp1L.png",
-      "urlFrontView": "@assets/front-view/porsche-911-turbo-s-white.png",
+      "logo": "https://i.imgur.com/IaLcucX.png?2",
+      "types": [
+        {
+          "number": 1,
+          "color": "white",
+          "urlSideView": "https://i.imgur.com/EA9jp1L.png",
+          "urlFrontView": "https://i.imgur.com/PwKI3Yy.png"
+        },
+        {
+          "number": 2,
+          "color": "silver",
+          "urlSideView": "https://i.imgur.com/MfBkwQT.png",
+          "urlFrontView": "https://i.imgur.com/4qf5HJS.png"
+        },
+        {
+          "number": 3,
+          "color": "blue",
+          "urlSideView": "https://i.imgur.com/jXmiBBe.png",
+          "urlFrontView": "https://i.imgur.com/U9fwFaQ.png"
+        }
+      ],
       "price": 725
     },
     {
-      "brand": "Porsche",
-      "model": "911 Turbo S",
-      "color": "blue",
-      "urlSideView": "https://i.imgur.com/jXmiBBe.png",
-      "urlFrontView": "@assets/front-view/porsche-911-turbo-s-blue.png",
-      "price": 725
-    },
-    {
+      "id": 3,
       "brand": "Porsche",
       "model": "911 GT3 RS",
-      "color": "orange",
-      "urlSideView": "https://i.imgur.com/ph0q7xm.png",
+      "logo": "https://i.imgur.com/IaLcucX.png?2",
+      "types": [
+        {
+          "number": 1,
+          "color": "orange",
+          "urlSideView": "https://i.imgur.com/ph0q7xm.png",
+          "urlFrontView": ""
+        }
+      ],
       "price": 825
     },
     {
+      "id": 4,
       "brand": "Bentley",
       "model": "Continental GT",
-      "color": "blue",
-      "urlSideView": "https://i.imgur.com/agZEdSu.png",
+      "logo": "",
+      "types": [
+        {
+          "number": 1,
+          "color": "blue",
+          "urlSideView": "https://i.imgur.com/agZEdSu.png",
+          "urlFrontView": ""
+        }
+      ],
       "price": 825
     },
     {
+      "id": 5,
       "brand": "BMW",
       "model": "M1 Competition",
-      "color": "white",
-      "urlSideView": "https://i.imgur.com/MrwcdS4.png",
+      "logo": "",
+      "types": [
+        {
+          "number": 1,
+          "color": "white",
+          "urlSideView": "https://i.imgur.com/MrwcdS4.png",
+          "urlFrontView": ""
+        }
+      ],
       "price": 825
     },
     {
+      "id": 6,
       "brand": "Alfa Romeo",
       "model": "4C Spider",
-      "color": "yellow",
-      "urlSideView": "https://i.imgur.com/V9uhCgH.png",
+      "logo": "",
+      "types": [
+        {
+          "number": 1,
+          "color": "yellow",
+          "urlSideView": "https://i.imgur.com/V9uhCgH.png",
+          "urlFrontView": ""
+        }
+      ],
       "price": 825
     },
     {
+      "id": 7,
       "brand": "Mclaren",
       "model": "P1 GTR",
-      "color": "blue",
-      "urlSideView": "https://i.imgur.com/Pi3cCSz.png",
+      "logo": "",
+      "types": [
+        {
+          "number": 1,
+          "color": "blue",
+          "urlSideView": "https://i.imgur.com/Pi3cCSz.png",
+          "urlFrontView": ""
+        }
+      ],
       "price": 925
     },
     {
+      "id": 8,
       "brand": "Lamborghini",
       "model": "Aventador",
-      "color": "orange",
-      "urlSideView": "https://i.imgur.com/04BOPvh.png",
+      "logo": "",
+      "types": [
+        {
+          "number": 1,
+          "color": "orange",
+          "urlSideView": "https://i.imgur.com/04BOPvh.png",
+          "urlFrontView": ""
+        }
+      ],
       "price": 925
     },
     {
+      "id": 9,
       "brand": "Bugatti",
       "model": "Veyron Spyder",
-      "color": "blue",
-      "urlSideView": "https://i.imgur.com/XQr09vK.png",
+      "logo": "",
+      "types": [
+        {
+          "number": 1,
+          "color": "blue",
+          "urlSideView": "https://i.imgur.com/XQr09vK.png",
+          "urlFrontView": ""
+        }
+      ],
       "price": 925
     },
     {
+      "id": 10,
       "brand": "Chevrolet",
       "model": "Corvett",
-      "color": "white",
+      "logo": "",
+      "types": [
+        {
+          "number": 1,
+          "color": "white",
       "urlSideView": "https://i.imgur.com/sIv5551.png",
+          "urlFrontView": ""
+        }
+      ],
       "price": 925
     },
     {
+      "id": 11,
       "brand": "Rolls-Royce",
       "model": "Wraith",
-      "color": "red",
+      "logo": "",
+      "types": [
+        {
+          "number": 1,
+          "color": "red",
       "urlSideView": "https://i.imgur.com/auGJ3Oj.png",
+          "urlFrontView": ""
+        }
+      ],
       "price": 725
     },
     {
+      "id": 12,
       "brand": "Mercedes-benz",
       "model": "AMG GTS",
-      "color": "gray",
+      "logo": "",
+      "types": [
+        {
+          "number": 1,
+          "color": "gray",
       "urlSideView": "https://i.imgur.com/XvsTs4Y.png",
+          "urlFrontView": ""
+        }
+      ],
       "price": 725
     }
   ]

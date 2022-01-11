@@ -1,13 +1,18 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  align-items: center;
+  background: ${props => props.theme.colors.background_primary};
+  box-shadow: 0px 10px 30px #0000001a;
+
   width: 100vw;
   height: 5.2rem;
   display: flex;
   justify-content: center;
-  align-items: center;
-  background: ${props => props.theme.colors.background_primary};
-  box-shadow: 0px 10px 30px #0000001a;
 `;
 
 export const Title = styled.div`

@@ -6,6 +6,7 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
   padding: 0 7.6%;
+  padding-top: 5.2rem;
 `;
 
 export const ImgContainer = styled.div`
