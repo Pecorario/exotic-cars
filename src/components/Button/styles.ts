@@ -1,10 +1,7 @@
 import styled, { css } from 'styled-components';
+import { StyledButtonProps } from '@models/UIProps';
 
-interface StyledTypeProps {
-  types: 'back' | 'forward';
-}
-
-export const Container = styled.button<StyledTypeProps>`
+export const Container = styled.button<StyledButtonProps>`
   display: flex;
   align-items: center;
   justify-content: center;
@@ -18,10 +15,10 @@ export const Container = styled.button<StyledTypeProps>`
   font-family: 'Segoe UI Light';
   font-size: 1rem;
 
-  ${props => (props.types === 'back' ? css`` : css``)}
+  ${props => (props.types === 'primary' ? css`` : css``)}
 
   ${props =>
-    props.types === 'back'
+    props.types === 'primary'
       ? css`
           color: ${props => props.theme.colors.text_primary};
         `
@@ -34,7 +31,7 @@ export const Container = styled.button<StyledTypeProps>`
     font-size: 1rem;
     margin-top: 0.15rem;
     ${props =>
-      props.types === 'back'
+      props.types === 'primary'
         ? css`
             margin-right: 0.725rem;
           `
@@ -45,7 +42,7 @@ export const Container = styled.button<StyledTypeProps>`
 
   &:hover {
     ${props =>
-      props.types === 'back'
+      props.types === 'primary'
         ? css`
             background: ${props => props.theme.colors.text_primary};
             color: white;

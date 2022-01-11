@@ -43,7 +43,7 @@ export function Details() {
         </PriceAndModel>
       </DetailsContainer>
       <Middle>
-        <Button text="Back to catalog" type="back" onClick={backHome} />
+        <Button text="Back to catalog" type="primary" onClick={backHome} />
         <Car>
           <Img src={type.urlFrontView} alt={`${car.brand} ${car.model}`} />
           <TypeContainer>
@@ -53,7 +53,7 @@ export function Details() {
         </Car>
       </Middle>
       <ButtonContainer>
-        <Button text="Book now" type="forward" onClick={backHome} />
+        <Button text="Book now" type="secondary" onClick={backHome} />
       </ButtonContainer>
     </Container>
   );

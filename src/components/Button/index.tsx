@@ -1,16 +1,11 @@
 import { Container } from './styles';
 import { BsArrowLeft, BsArrowRight } from 'react-icons/bs';
-
-export interface ButtonProps {
-  text: string;
-  type: 'back' | 'forward';
-  onClick: () => void;
-}
+import { ButtonProps } from '@models/UIProps';
 
 export function Button({ text, onClick, type }: ButtonProps) {
   return (
     <Container onClick={onClick} types={type}>
-      {type === 'forward' ? (
+      {type === 'secondary' ? (
         <>
           {text}
           <BsArrowRight />
