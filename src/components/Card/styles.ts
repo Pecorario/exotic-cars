@@ -12,7 +12,7 @@ export const Container = styled.button`
   justify-content: space-between;
 
   margin: 1rem 0.5rem;
-  width: 70%;
+  width: 80%;
 
   @media (min-width: 480px) {
     width: 45%;

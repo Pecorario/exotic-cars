@@ -11,6 +11,7 @@ declare module 'styled-components' {
       text_secondary: string;
       text_button: string;
       options: string;
+      icon: string;
     };
   }
 }

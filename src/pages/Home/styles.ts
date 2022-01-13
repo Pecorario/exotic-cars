@@ -7,6 +7,10 @@ export const Container = styled.div`
   align-items: center;
   padding: 0 7.6%;
   padding-top: 5.2rem;
+
+  @media (max-width: 860px) {
+    padding-top: 7rem;
+  }
 `;
 
 export const ImgContainer = styled.div`

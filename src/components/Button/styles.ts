@@ -48,8 +48,7 @@ export const Container = styled.button<StyledButtonProps>`
             color: white;
           `
         : css`
-            color: ${props => props.theme.colors.text_primary};
-            background: transparent;
+            filter: brightness(0.9);
           `}
   }
 `;

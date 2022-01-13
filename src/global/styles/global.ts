@@ -51,6 +51,16 @@ export const GlobalStyle = createGlobalStyle`
     border: none;
   }
 
+  input[type="date"]::-webkit-inner-spin-button,
+  input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+  }
+
+  input[type="date"], input[type="time"] {
+     font-family: 'Segoe UI Semi Bold', sans-serif;
+  }
+
   a {
     text-decoration: none;
   }

@@ -5,6 +5,11 @@ export const Container = styled.div`
   padding: 0 6.25%;
   padding-top: 8.5rem;
   height: 100vh;
+  width: 100vw;
+
+  @media (max-width: 860px) {
+    padding-top: 10rem;
+  }
 `;
 
 export const DetailsContainer = styled.div`
@@ -46,7 +51,8 @@ export const Car = styled.div`
 `;
 
 export const Img = styled.img`
-  height: 26rem;
+  height: 32vh;
+  width: auto;
 `;
 
 export const TypeContainer = styled.div`

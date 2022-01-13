@@ -1,4 +1,5 @@
 import { Button } from '@components/Button';
+import { Carousel } from '@components/Carousel';
 import { CarProps } from '@models/CarsProps';
 import { RootStateOrAny, useSelector } from 'react-redux';
 import { useLocation, useNavigate } from 'react-router-dom';
@@ -55,6 +56,7 @@ export function Details() {
       <ButtonContainer>
         <Button text="Book now" type="secondary" onClick={backHome} />
       </ButtonContainer>
+      <Carousel types={car.types} />
     </Container>
   );
 }

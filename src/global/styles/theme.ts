@@ -9,6 +9,7 @@ export const theme: DefaultTheme = {
     text_primary: '#313136',
     text_secondary: '#656469',
     text_button: '#7B89F4',
-    options: '#C8C8CA'
+    options: '#C8C8CA',
+    icon: '#C3C3C3'
   }
 };

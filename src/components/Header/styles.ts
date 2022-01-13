@@ -5,15 +5,32 @@ export const Container = styled.div`
   top: 0;
   left: 0;
   z-index: 100;
-  align-items: center;
   background: ${props => props.theme.colors.background_primary};
   box-shadow: 0px 10px 30px #0000001a;
 
   padding: 0 7.6%;
 
   width: 100vw;
-  height: 5.2rem;
   display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+
+  height: 5.2rem;
+
+  @media (max-width: 860px) {
+    flex-direction: column;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    height: 7rem;
+  }
+`;
+
+export const Content = styled.div`
+  width: 100%;
+  /* height: 5.2rem; */
+  display: flex;
+  align-items: center;
   justify-content: space-between;
 `;
 
@@ -40,6 +57,30 @@ export const InputsContainer = styled.div`
 
   border-radius: 18px;
   position: relative;
+
+  @media (max-width: 860px) {
+    display: none;
+  }
+`;
+
+export const InputsContainerMobile = styled.div`
+  display: flex;
+  width: 30.6875rem;
+  height: 2.25rem;
+  background: ${props => props.theme.colors.background_input};
+
+  border-radius: 18px;
+  position: relative;
+  margin-top: 0.5rem;
+
+  @media (max-width: 400px) {
+    padding-right: 2.2rem;
+    width: 100%;
+  }
+
+  @media (min-width: 861px) {
+    display: none;
+  }
 `;
 
 export const Search = styled.button`
