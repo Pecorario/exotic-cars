@@ -16,6 +16,12 @@ import {
 } from './styles';
 
 export function Header() {
+  const date = new Date();
+  const day = date.toLocaleString('pt-BR', { day: '2-digit' });
+  const month = date.toLocaleString('pt-BR', { month: '2-digit' });
+  const year = date.getFullYear();
+
+  const today = `${year}-${month}-${day}`;
   return (
     <Container>
       <Content>
@@ -24,9 +30,9 @@ export function Header() {
           <TitleTwo>CARS</TitleTwo>
         </Title>
         <InputsContainer>
-          <Input type="text" icon="local" width="40%" />
-          <Input type="date" icon="date" width="25%" />
-          <Input type="date" icon="date" width="25%" />
+          <Input type="text" icon="local" />
+          <Input type="date" icon="date" value={today} />
+          <Input type="date" icon="date" value={today} />
           <Search>
             <FaSearch />
           </Search>
@@ -45,9 +51,9 @@ export function Header() {
         </ButtonsContainer>
       </Content>
       <InputsContainerMobile>
-        <Input type="text" icon="local" width="40%" />
-        <Input type="date" icon="date" width="25%" />
-        <Input type="date" icon="date" width="25%" />
+        <Input type="text" icon="local" />
+        <Input type="date" icon="date" value={today} />
+        <Input type="date" icon="date" value={today} />
         <Search>
           <FaSearch />
         </Search>

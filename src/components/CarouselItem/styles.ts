@@ -29,6 +29,14 @@ export const Container = styled.button<StyledCarouselProps>`
         width: 25rem;
       }
     `}
+
+  @media (max-width: 960px) {
+    ${props =>
+      props.selected === false &&
+      css`
+        display: none;
+      `}
+  }
 `;
 
 export const Img = styled.img`

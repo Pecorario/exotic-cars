@@ -3,6 +3,7 @@ export interface TypeProps {
   color: string;
   urlSideView: string;
   urlFrontView: string;
+  selected?: boolean;
 }
 
 export interface CarProps {

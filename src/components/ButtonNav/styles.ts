@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 
 export const Container = styled.button`
   width: 2.625rem;
@@ -15,6 +15,17 @@ export const Container = styled.button`
   }
 
   &:hover {
-    filter: brightness(0.9);
+    ${props =>
+      !props.disabled &&
+      css`
+        filter: brightness(0.9);
+      `}
   }
+
+  ${props =>
+    props.disabled &&
+    css`
+      filter: opacity(0.6);
+      cursor: not-allowed;
+    `}
 `;

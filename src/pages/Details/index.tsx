@@ -1,6 +1,6 @@
 import { Button } from '@components/Button';
 import { Carousel } from '@components/Carousel';
-import { CarProps } from '@models/CarsProps';
+import { CarProps, TypeProps } from '@models/CarsProps';
 import { RootStateOrAny, useSelector } from 'react-redux';
 import { useLocation, useNavigate } from 'react-router-dom';
 
@@ -27,7 +27,7 @@ export function Details() {
   const cars = useSelector((state: RootStateOrAny) => state.cars.cars);
   const car = cars.find((car: CarProps) => car.id === +path);
 
-  const type = car.types[0];
+  const type = car.types.find((type: TypeProps) => type.selected === true);
 
   const backHome = () => {
     navigate('/');
@@ -56,7 +56,7 @@ export function Details() {
       <ButtonContainer>
         <Button text="Book now" type="secondary" onClick={backHome} />
       </ButtonContainer>
-      <Carousel types={car.types} />
+      <Carousel types={car.types} id={car.id} />
     </Container>
   );
 }

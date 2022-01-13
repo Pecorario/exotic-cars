@@ -51,8 +51,28 @@ export const Car = styled.div`
 `;
 
 export const Img = styled.img`
-  height: 32vh;
+  height: 35vh;
   width: auto;
+
+  @media (max-width: 480px) {
+    height: 10vh;
+  }
+
+  /* @media (min-width: 768px) {
+    width: 30%;
+  }
+
+  @media (min-width: 960px) {
+    width: 30%;
+    height: 12.5rem;
+  }
+
+  @media (min-width: 1200px) {
+    margin: 1rem 0.5rem;
+
+    width: 17.9375rem;
+    height: 13.9375rem;
+  } */
 `;
 
 export const TypeContainer = styled.div`
