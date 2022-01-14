@@ -1,4 +1,3 @@
-import { Button } from '@components/Button';
 import { Carousel } from '@components/Carousel';
 import { CarProps, TypeProps } from '@models/CarsProps';
 import { RootStateOrAny, useSelector } from 'react-redux';
@@ -17,7 +16,10 @@ import {
   TypeContainer,
   Number,
   Color,
-  ButtonContainer
+  ButtonContainer,
+  ButtonMobile,
+  ButtonNormalScreen,
+  ButtonBook
 } from './styles';
 
 export function Details() {
@@ -28,7 +30,7 @@ export function Details() {
   const car = cars.find((car: CarProps) => car.id === +path);
 
   const type = car.types.find((type: TypeProps) => type.selected === true);
-
+  const color = type.color[0].toUpperCase() + type.color.substr(1);
   const backHome = () => {
     navigate('/');
   };
@@ -44,17 +46,26 @@ export function Details() {
         </PriceAndModel>
       </DetailsContainer>
       <Middle>
-        <Button text="Back to catalog" type="primary" onClick={backHome} />
+        <ButtonNormalScreen
+          text="Back to catalog"
+          type="primary"
+          onClick={backHome}
+        />
         <Car>
           <Img src={type.urlFrontView} alt={`${car.brand} ${car.model}`} />
           <TypeContainer>
             <Number>{type.number}</Number>
-            <Color>{type.color}</Color>
+            <Color>{color}</Color>
           </TypeContainer>
         </Car>
       </Middle>
       <ButtonContainer>
-        <Button text="Book now" type="secondary" onClick={backHome} />
+        <ButtonMobile
+          text="Back to catalog"
+          type="primary"
+          onClick={backHome}
+        />
+        <ButtonBook text="Book now" type="secondary" onClick={backHome} />
       </ButtonContainer>
       <Carousel types={car.types} id={car.id} />
     </Container>

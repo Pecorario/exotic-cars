@@ -14,7 +14,7 @@ export interface InputProps {
   type: string;
   icon: 'local' | 'date';
   value?: string;
-  onChange?: () => void;
+  onChange?: (event: React.ChangeEvent<HTMLInputElement>) => void;
 }
 
 export interface StyledInputProps {

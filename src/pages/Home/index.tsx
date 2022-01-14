@@ -6,6 +6,7 @@ import { Container, ImgContainer } from './styles';
 import { CarProps } from '@models/CarsProps';
 import { Card } from '@components/Card';
 import { useNavigate } from 'react-router-dom';
+import { ButtonHome } from '@components/ButtonHome';
 
 export function Home() {
   const navigate = useNavigate();
@@ -36,6 +37,7 @@ export function Home() {
           );
         })}
       </ImgContainer>
+      <ButtonHome />
     </Container>
   );
 }

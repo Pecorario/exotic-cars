@@ -34,30 +34,13 @@ const carSlice = createSlice({
 
       const car = state.cars.find((car: CarProps) => car.id === id);
 
-      car?.types.map((type: TypeProps, index: number) => {
+      car?.types.map((type: TypeProps) => {
         if (type.number === number) {
           return (type.selected = true);
         } else {
           return (type.selected = false);
         }
       });
-
-      const selected = car?.types.find(
-        (type: TypeProps) => type.selected === true
-      );
-
-      if (selected) {
-        const index = car?.types.indexOf(selected);
-        console.log('Selected? ', index);
-
-        if (index !== undefined) {
-          if (car?.types.length === 3) {
-            car.types = changePosition(car?.types, index, 1);
-          } else if (car?.types.length === 2) {
-            car.types = changePosition(car?.types, index, 0);
-          }
-        }
-      }
     },
     carouselNavigation(state, action) {
       const { type, id } = action.payload;
@@ -69,14 +52,11 @@ const carSlice = createSlice({
 
       if (selected) {
         const index = car?.types.indexOf(selected);
-        console.log('Selected? ', index);
 
         if (index !== undefined) {
           if (type === 'forward') {
-            const newIndex = index + 1;
-            console.log('New', newIndex);
             car?.types.map((type: TypeProps, indexArr: number) => {
-              if (newIndex === indexArr) {
+              if (indexArr === index + 1) {
                 return (type.selected = true);
               } else {
                 return (type.selected = false);
@@ -93,14 +73,17 @@ const carSlice = createSlice({
           }
         }
       }
+    },
+    organizingArray(state, action) {
+      const { id } = action.payload;
 
-      const newSelected = car?.types.find(
+      const car = state.cars.find((car: CarProps) => car.id === id);
+      const selected = car?.types.find(
         (type: TypeProps) => type.selected === true
       );
 
-      if (newSelected !== undefined) {
-        const index = car?.types.indexOf(newSelected);
-        console.log('Novo ativo? ', index);
+      if (selected) {
+        const index = car?.types.indexOf(selected);
 
         if (index !== undefined) {
           if (car?.types.length === 3) {
